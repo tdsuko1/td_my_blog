@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet" />
+		<link rel="icon" type="image/x-icon" href="assets/images/header-icon.png" />
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link href="fontawesome6/css/all.css" rel="stylesheet" type="text/css" />
+		<title>Blog</title>
+	</head>
+	<body>
+		<header>
+			<img src="assets/images//header-icon.png" alt="header-icon" />
+			<h1>
+				<a href="index.html">Cobee The Florist</a>
+			</h1>
+
+			<nav>
+				<a href="index.html"><i class="fa-solid fa-list-check"></i> Project</a>
+				<a href="contact.html"><i class="fa-solid fa-address-book"></i> Contact</a>
+				<a href="about.html"><i class="fa-solid fa-address-card"></i> About Me</a>
+			</nav>
+		</header>
+		<main>
+			<section id="jumbotron">
+				<div class="jumbotron">
+					<h1 class="jumbotron-title">Dapatkan Tips Programming Disini!</h1>
+					<div class="header-flex">
+						<div>
+							<h2
+								class="jumbotron-text"
+								data-aos="fade-right"
+								data-aos-once="true"
+								data-aos-duration="2000"
+								data-aos-delay="200"
+								data-aos-easing="ease-in"
+								data-aos-offset="300">
+								Baru di dunia Programming? <br />
+								Belajar lewat pengembangan <span style="color: #f4a261">Game dan Web</span> sederhana!
+							</h2>
+							<div class="mini-text-flex" data-aos="flip-down">
+								<p class="mini-text">Belajar programming dasar disini</p>
+								<button id="icon-up" onclick="changeText()">
+									<i class="far fa-hand-point-up"></i>
+								</button>
+								<button id="icon-down" class="icon-down">
+									<i class="far fa-hand-point-down"></i>
+								</button>
+							</div>
+						</div>
+
+						<div
+							data-aos="fade-left"
+							data-aos-duration="2000"
+							data-aos-delay="200"
+							data-aos-easing="ease-in"
+							data-aos-offset="100">
+							<img
+								class="jumbotron-img"
+								src="assets/images/banner-min.jpg"
+								alt="banner-min"
+								width="auto"
+								height="300" />
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<svg class="wave1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+				<path
+					fill="#6f69ee"
+					fill-opacity="1"
+					d="M0,128L120,149.3C240,171,480,213,720,208C960,203,1200,149,1320,122.7L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+			</svg>
+
+			<svg class="wave2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+				<path
+					fill="#ffffff"
+					fill-opacity="1"
+					d="M0,128L120,149.3C240,171,480,213,720,208C960,203,1200,149,1320,122.7L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+			</svg>
+
+			<section id="slider" class="section-slider">
+				<div class="image-slider">
+					<div class="slide active">
+						<img src="assets/images/game-development.jpg" alt="" />
+						<div class="slide-text">
+							<h2>Game Development</h2>
+							<p>Instead of playing game all day long, why not create your own?</p>
+						</div>
+					</div>
+
+					<div class="slide">
+						<img src="assets/images/kids-programming.jpg" alt="" />
+						<div class="slide-text">
+							<h2>Kids Programming</h2>
+							<p>Instead of playing game all day long, why not create your own?</p>
+						</div>
+					</div>
+
+					<div class="slide">
+						<img src="assets/images/web-design.jpg" alt="" />
+						<div class="slide-text">
+							<h2>Web Design</h2>
+							<p>Instead of playing game all day long, why not create your own?</p>
+						</div>
+					</div>
+
+					<div class="slide">
+						<img src="assets/images/web-development.jpg" alt="" />
+						<div class="slide-text">
+							<h2>Web Development</h2>
+							<p>Instead of playing game all day long, why not create your own?</p>
+						</div>
+					</div>
+
+					<div class="slide">
+						<img src="assets/images/apps.jpg" alt="" />
+						<div class="slide-text">
+							<h2>Apps Development</h2>
+							<p>Instead of playing game all day long, why not create your own?</p>
+						</div>
+					</div>
+
+					<div class="navigation">
+						<div class="slider-btn active"></div>
+						<div class="slider-btn"></div>
+						<div class="slider-btn"></div>
+						<div class="slider-btn"></div>
+						<div class="slider-btn"></div>
+					</div>
+				</div>
+			</section>
+
+			<div class="main-content">
+				<article id="my-project">
+					<h3 class="article-title">My Project</h3>
+					<div class="project-container">
+						<div class="project">
+							<img src="assets/images/p1.jpg" alt="" width="300px" height="210px" />
+							<h4 class="project-title">Desert Rally</h4>
+							<p class="project-description">Game Desert Rally uses Scratch platform</p>
+						</div>
+						<div class="project">
+							<img src="assets/images/p2.jpg" alt="" width="300px" height="210px" />
+							<h4 class="project-title">Memory Game</h4>
+							<p class="project-description">Game Memory Game uses Phaser platform</p>
+						</div>
+					</div>
+					<div class="project-container">
+						<div class="project">
+							<img src="assets/images/p1.jpg" alt="" width="300px" height="210px" />
+							<h4 class="project-title">Desert Rally</h4>
+							<p class="project-description">Game Desert Rally uses Scratch platform</p>
+						</div>
+						<div class="project">
+							<img src="assets/images/p2.jpg" alt="" width="300px" height="210px" />
+							<h4 class="project-title">Memory Game</h4>
+							<p class="project-description">Game Memory Game uses Phaser platform</p>
+						</div>
+					</div>
+				</article>
+
+				<article id="video">
+					<div class="item-video">
+						<div class="video">
+							<h3 class="article-title">What is Coding?</h3>
+							<iframe
+								width="500"
+								height="350"
+								src="https://www.youtube.com/embed/5e5N8swLJEg?si=c9gWgGhNylc8Yqmw"
+								title="YouTube video player"
+								frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+								referrerpolicy="strict-origin-when-cross-origin"
+								allowfullscreen></iframe>
+						</div>
+						<div class="video">
+							<h3 class="article-title">Coding is Not Difficult!</h3>
+							<iframe
+								width="500"
+								height="350"
+								src="https://www.youtube.com/embed/5e5N8swLJEg?si=c9gWgGhNylc8Yqmw"
+								title="YouTube video player"
+								frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+								referrerpolicy="strict-origin-when-cross-origin"
+								allowfullscreen></iframe>
+						</div>
+					</div>
+				</article>
+
+				<article id="maps">
+					<div class="content">
+						<div class="maps">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63322.799870064584!2d112.70502101586915!3d-7.277772799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f960aee9a64d%3A0xaa9e2f2c4ed67175!2sTunjungan%20Plaza!5e0!3m2!1sen!2sid!4v1721623394762!5m2!1sen!2sid"
+								width="500"
+								height="350"
+								style="border: 0"
+								allowfullscreen=""
+								loading="lazy"></iframe>
+						</div>
+					</div>
+				</article>
+			</div>
+		</main>
+		<footer>
+			<div class="center-footer">
+				<div class="main-footer">
+					<div class="left-footer">
+						<h3 class="info-left"><i class="fas fa-map-marked-alt"></i> <b>Address</b></h3>
+						<p class="info-left"><i class="fas fa-map-pin"></i> Tukad Yeh AyaStreet No.45, Renon,Denpasar</p>
+					</div>
+					<div class="right-footer">
+						<h3 class="info-right"><i class="fas fa-address-book"></i> <b>Contacts</b></h3>
+						<p class="info-right"><i class="fas fa-phone-alt"></i> Phone:087876667564</p>
+						<p class="info-right"><i class="fa-brands fa-instagram"></i> Instagram : @floristshop</p>
+					</div>
+				</div>
+
+				<div class="main-footer">
+					<p class="info-center">CopyrightN&copy; 2021 Designed by Florist Shop</p>
+				</div>
+			</div>
+		</footer>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
